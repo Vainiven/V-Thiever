@@ -9,7 +9,7 @@ import simple.api.script.Script;
 import simple.api.script.ScriptManifest;
 import simple.api.script.interfaces.SimplePaintable;
 
-@ScriptManifest(author = "Vainiven & FVZ", category = Category.MONEYMAKING, description = "Will get you that level 99 thieving.", discord = "Vainiven#6986", name = "V-Thiever", servers = {
+@ScriptManifest(author = "Vainiven & FVZ", category = Category.THIEVING, description = "Will get you that level 99 thieving.", discord = "Vainiven#6986", name = "V-Thiever", servers = {
 		"SpawnPK" }, version = "0.1")
 
 public class Thiever extends Script implements SimplePaintable {
