@@ -61,7 +61,7 @@ public class Thiever extends Script implements SimplePaintable {
 		if (thievingLevel > 50 && thievingLevel < 76) {
 			return 4876;
 		}
-		if (thievingLevel > 75 && thievingLevel < 99) {
+		if (thievingLevel >= 75 && thievingLevel < 99) {
 			return 4877;
 		}
 		return 4878;
